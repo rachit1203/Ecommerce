@@ -1,10 +1,14 @@
 import Image from 'next/image'
-import { Navbar } from '../components/Navbar/Navbar'
+import TopHeader from './components/TopHeader'
+import Footer from './components/Footer'
 
 export default function Home() {
   return (
     <main>
-        <Navbar/>
+      <TopHeader/>
+        {/* <Footer/> */}
     </main>
   )
 }
+
+
